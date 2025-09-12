@@ -1,7 +1,12 @@
-# _config.yml for Lumina Academy
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
 
-theme: jekyll-theme-minimal   # minimalistic theme
-title: Lumina Academy          # site title
-description: Accredited online K–12 school providing full curriculum and preparation for international exams
-url: ""                        # leave empty for now if no custom domain
-baseurl: ""                     # leave empty if the site is in the root of GitHub Pages
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="_replyto" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
